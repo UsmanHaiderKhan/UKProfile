@@ -11,20 +11,21 @@
     android:orientation="vertical">
       <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp">
+        android:layout_height="300dp">
         <LinearLayout
             android:background="@drawable/gradientbackground"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="230dp"
             android:orientation="vertical">
-            <ImageView
-                android:layout_marginTop="10dp"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/usman"/>
+                android:src="@drawable/peh"
+                />
             <TextView
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -37,7 +38,7 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="140dp">
+            android:layout_marginTop="170dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -137,7 +138,7 @@
                 android:text="usmanhaiderkhan4@gmail.com"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal"
             android:paddingLeft="25dp"
             android:layout_width="match_parent"
@@ -156,7 +157,7 @@
                 android:text="+92301 4344227655"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal"
             android:paddingLeft="25dp"
             android:layout_width="match_parent"
@@ -175,7 +176,7 @@
                 android:text="Add to group"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal"
             android:paddingLeft="25dp"
             android:layout_width="match_parent"
@@ -198,9 +199,10 @@
     <Button
         android:textColor="#fff"
         android:background="@drawable/buttonstylegradient"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
+        android:clickable="true"
         android:layout_height="wrap_content"
         android:text="Follow Me"/>
 
